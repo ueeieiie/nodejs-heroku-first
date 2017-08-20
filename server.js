@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 let apis = require('./BE/apis');
 
 const app = express();
-const port = process.env.port || 3000;
+const port = process.ENV.PORT || 3000;
 
 app.use(express.static('app'));
 app.use(morgan('dev'));
