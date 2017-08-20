@@ -1,0 +1,5 @@
+morgan ->  Give us logs of all the Reqeusts
+
+mongoose -> the layer which connect nodejs and mongo
+
+body-parser -> a middleware - parse our request url into an accecible object
